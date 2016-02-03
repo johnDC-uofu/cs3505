@@ -1,3 +1,7 @@
+#include<iostream>
+
+using namespace std;
+
 int main () {
 
 	int number1, number2;
@@ -6,4 +10,6 @@ int main () {
 	
 	int answer;
 	answer = number1 + number2;
+	
+	cout << answer;
 }
